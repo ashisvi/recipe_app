@@ -1,23 +1,9 @@
 {
   "expo": {
-    "name": "recipe-app",
-    "slug": "recipe-app",
+    "name": "recipe_app",
+    "slug": "recipe_app",
+    "scheme": "recipe_app",
     "version": "1.0.0",
-    
-      "scheme": "recipe-app",
-      "web": {
-        "bundler": "metro",
-        "output": "static",
-        "favicon": "./assets/favicon.png"
-      },
-      "plugins": ["expo-router"],
-      "experiments": {
-        "typedRoutes": true
-        
-          ,"tsconfigPaths": true
-        
-      },
-    
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -37,6 +23,9 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
     }
   }
 }
